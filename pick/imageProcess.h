@@ -18,7 +18,9 @@
 
 
 #pragma mark -
-//opencv help function 
+//opencv help function
+//refers to Yoshimasa Niwa's blog
+//http://niw.at/articles/2009/03/14/using-opencv-on-iphone/en
 + (UIImage*)UIImageFromIplImage:(IplImage*)image;
 + (IplImage*)CreateIplImageFromUIImage:(UIImage*)image;
 
